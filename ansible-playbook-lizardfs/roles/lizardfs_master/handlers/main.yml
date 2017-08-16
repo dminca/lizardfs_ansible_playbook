@@ -1,3 +1,0 @@
----
- - name: reload lizardfs-master
-   service: name=lizardfs-master state=reloaded
