@@ -11,7 +11,9 @@
     - mfschunkserver.cfg
     - mfshdd.cfg
   notify: reload lizardfs-chunkserver
- 
+
+- meta: flush_handlers
+
 - name: Setze Berechtigungen mfshdd Verzeichnisse
   become: true
   file:

@@ -14,6 +14,8 @@
     - mfstopology.cfg
   notify: reload lizardfs-master
 
+- meta: flush_handlers
+
 - name: Kopiere metadata.mfs file
   become: true
   copy:
