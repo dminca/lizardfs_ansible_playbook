@@ -1,3 +1,0 @@
-#/bin/bash
-
-ansible-playbook -i lizardfs.hosts ansible-playbook-lizardfs.yml

@@ -1,3 +1,0 @@
----
- - name: reload lizardfs-chunkserver
-   service: name=lizardfs-chunkserver state=reloaded

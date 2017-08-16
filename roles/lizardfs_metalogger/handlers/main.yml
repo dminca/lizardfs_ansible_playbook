@@ -1,0 +1,7 @@
+---
+- name: reload lizardfs-metalogger
+  become: true
+  service:
+    name: lizardfs-metalogger
+    state: reloaded
+
